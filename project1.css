@@ -25,6 +25,14 @@ button{
     border-radius: 1rem;
 }
 
+#fname{
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
 @media (max-width: 652px) {
     .greeter-computer{
         margin: 200px 150px;
@@ -34,4 +42,10 @@ button{
         font-size: 2rem;
         padding-top: 50px;
     }
+
+    button{
+        font-size: 2rem;
+        border-radius: 1rem;
+    }
+    
 }
