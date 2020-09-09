@@ -16,6 +16,12 @@ greet_button.addEventListener('click', function(e){
         if (key.dataset.action === 'sayHello'){
             display.textContent = 'Hello' + ' ' + display.textContent
         }
+        if (key.dataset.action === 'sayGoodbye'){
+            display.textContent = 'Bye' + ' ' + display.textContent
+        }
+        if (key.dataset.action === 'clear'){
+            location.reload();
+        }
 
     }
 
