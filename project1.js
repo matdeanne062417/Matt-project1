@@ -13,6 +13,10 @@ greet_button.addEventListener('click', function(e){
         if (key.dataset.action === 'hello'){
            display.textContent = 'Hello'+ ' ' + myName.value + '!';
         }
+        if (key.dataset.action === 'sayHello'){
+            display.textContent = 'Hello' + ' ' + display.textContent
+        }
+
     }
 
     if (e.target.matches('input')){
