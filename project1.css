@@ -1,19 +1,37 @@
-.greetings-hello{
+.greeter-computer{
     text-align: center;
     margin: 200px 450px;
     width: 50%;
-    background: skyblue;
+    background: beige;
     border: 5px solid black;
     border-radius: 5px;
 }
 
-.display{
+#greeter-display{
     border: 5px solid black;
     background: black;
     color: white;
     font-size: 3.5rem;
+    height: 90px;
+    padding: 20px;
+}
+
+.greeter-buttons{
+    border: 10px solid pink;
 }
 
 button{
-    font-size: xx-large;
+    font-size: 3rem;
+    border-radius: 1rem;
+}
+
+@media (max-width: 652px) {
+    .greeter-computer{
+        margin: 200px 150px;
+    }
+
+    #greeter-display{
+        font-size: 2rem;
+        padding-top: 50px;
+    }
 }
