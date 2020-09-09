@@ -5,7 +5,11 @@ const myName = document.getElementById('fname');
 greet_button.addEventListener('click', function(e){
     if (e.target.matches('button')){
         const key = e.target;
+        const nameTag = key.textContent;
         
+        if (!key.dataset.action){
+            display.textContent = nameTag
+        }
         if (key.dataset.action === 'hello'){
            display.textContent = 'Hello'+ ' ' + myName.value + '!';
         }

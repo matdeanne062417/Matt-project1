@@ -23,8 +23,8 @@
 
 button{
     font-size: 3rem;
-    border-radius: 1rem;
-    margin: 1%;
+    border-radius: .5rem;
+    margin: .5%;
 }
 
 #fname{
@@ -52,8 +52,8 @@ button{
     }
 
     button{
-        font-size: 2rem;
-        border-radius: 1rem;
+        font-size: 1.3rem;
+        border-radius: .5rem;
     }
     
 }
