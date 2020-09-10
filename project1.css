@@ -18,13 +18,20 @@
 }
 
 .greeter-buttons{
-    margin: auto;
+    margin: 0;
 }
 
 button{
-    font-size: 3rem;
+    font-size: 2rem;
     border-radius: .5rem;
     display: inline-flex;
+    width: 30%;
+    text-align: justify;
+}
+
+.hey{
+    background: chocolate;
+    color: white;
 }
 
 #fname{
