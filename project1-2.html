@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Say Hello1</title>
+    <title>Say Hello</title>
     <link rel="stylesheet" href="project1.css"/>
 </head>
 <body>
     <div class='greeter-computer'>
         <div id='greeter-display'>  </div>
             <div class='greeter-buttons'>
-                <button class ="hey" data-action='hello'>HELLO</button>
+                <input type="text" 
+                       id="fname" 
+                       name="fname"
+                       placeholder="Please Enter your Full Name">
+
+                <input type="button" 
+                       id="submit" 
+                       value="submit">
+
+                <button class ="hey" data-action='hello1'>HELLO</button>
                 <button class ="hey" data-action='clear'>Clear</button>
                 <a href="home.html"><button>HOME</button></a>
             </div>

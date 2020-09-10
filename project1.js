@@ -11,13 +11,17 @@ greet_button.addEventListener('click', function(e){
             display.textContent = nameTag
         }
         else if (key.dataset.action === 'hello'){
+           display.textContent = 'Hello World!';
+        }
+        else if (key.dataset.action === 'hello1'){
            display.textContent = 'Hello'+ ' ' + myName.value + '!';
         }
         else if (key.dataset.action === 'sayHello'){
-            display.textContent = 'Hello' + ' ' + display.textContent
+            display.textContent = 'Hello' + ' ' + display.textContent+ '!'
         }
         else if (key.dataset.action === 'sayGoodbye'){
-            display.textContent = ''
+            display.textContent = 'Goodbye' + ' ' + display.textContent;
+            location.reload();
         }
         else if (key.dataset.action === 'clear'){
             location.reload();
