@@ -21,12 +21,43 @@
     margin: 0;
 }
 
+h1{
+    margin-top: 10%;
+    text-align: center;
+}
+
 button{
     font-size: 2rem;
     border-radius: .5rem;
     display: inline-flex;
     width: 30%;
     text-align: justify;
+}
+#level-links{
+    margin: 200px auto;
+    border: 5px solid black;
+    border-radius: 1rem;
+    width: 30%;
+    color: black;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.link{
+    text-decoration-line: none;
+    border: .5px solid black;
+    display: block;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    border-radius: 1rem;
+}
+
+.link:hover{
+    background: black;
+    color: rgb(241, 241, 89);
 }
 
 .hey{
