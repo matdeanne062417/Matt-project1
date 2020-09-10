@@ -1,8 +1,8 @@
 
 .greeter-computer{
     text-align: center;
-    margin: 200px 450px;
-    width: 50%;
+    margin: 200px auto;
+    width: 25%;
     background: beige;
     border: 5px solid black;
     border-radius: 5px;
@@ -18,41 +18,145 @@
 }
 
 .greeter-buttons{
-    border: 10px solid pink;
+    margin: auto;
 }
 
 button{
     font-size: 3rem;
     border-radius: .5rem;
-    margin: .5%;
+    display: inline-flex;
 }
 
 #fname{
     font-size: 1.5rem;
-    display: block;
     text-align: center;
+    width: 90%;
     margin: auto;
-    width: 60%;
 }
 
 #submit {
     display: block;
     margin: auto;
     font-size: 1.5rem;
+    width: 90%
 }
 
-@media (max-width: 652px) {
+@media (max-width: 804px) {
     .greeter-computer{
-        margin: 200px 150px;
+        margin: 200px auto;
     }
 
     #greeter-display{
         font-size: 2rem;
-        padding-top: 50px;
+        padding-top: auto;
+        height: 50px;
     }
 
     button{
-        font-size: 1.3rem;
+        font-size: 1rem;
+        border-radius: .5rem;
+    }
+    
+}
+@media (max-width: 652px) {
+    .greeter-computer{
+        margin: 200px auto;
+    }
+
+    #greeter-display{
+        font-size: 2rem;
+        padding-top: auto;
+        height: 50px;
+    }
+
+    button{
+        font-size: 1rem;
+        border-radius: .5rem;
+    }
+    
+}
+@media (max-width: 360px) {
+    .greeter-computer{
+        margin: 200px auto;
+        width: 90%;
+    }
+
+    #greeter-display{
+        font-size: 2rem;
+        padding-top: auto;
+        height: 50px;
+    }
+
+    button{
+        font-size: 1rem;
+        border-radius: .5rem;
+    }
+    
+}
+@media (max-width: 411px) {
+    .greeter-computer{
+        margin: 200px auto;
+        width: 90%;
+    }
+    #greeter-display{
+        font-size: 2rem;
+        padding-top: auto;
+        height: 50px;
+    }
+
+    button{
+        font-size: 1rem;
+        border-radius: .5rem;
+    }
+    
+}
+@media (max-width: 414px) {
+    .greeter-computer{
+        margin: 200px auto;
+        width: 90%;
+    }
+    #greeter-display{
+        font-size: 2rem;
+        padding-top: auto;
+        height: 50px;
+    }
+
+    button{
+        font-size: 1rem;
+        border-radius: .5rem;
+    }
+    
+}
+@media (max-width: 1024px) {
+    .greeter-computer{
+        margin: 200px auto;
+        width: 30%;
+    }
+    #greeter-display{
+        font-size: 2rem;
+        padding-top: auto;
+        height: 50px;
+    }
+
+    button{
+        font-size: 1rem;
+        border-radius: .5rem;
+    }
+    
+}
+@media (max-width: 280px) {
+    .greeter-computer{
+        margin: 200px auto;
+        width: 90%;
+    }
+    #greeter-display{
+        font-size: 2rem;
+        padding-top: auto;
+        height: 50px;
+    }
+
+    button{
+        font-size: 1rem;
         border-radius: .5rem;
     }
     

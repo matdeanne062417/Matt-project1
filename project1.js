@@ -10,16 +10,16 @@ greet_button.addEventListener('click', function(e){
         if (!key.dataset.action){
             display.textContent = nameTag
         }
-        if (key.dataset.action === 'hello'){
+        else if (key.dataset.action === 'hello'){
            display.textContent = 'Hello'+ ' ' + myName.value + '!';
         }
-        if (key.dataset.action === 'sayHello'){
+        else if (key.dataset.action === 'sayHello'){
             display.textContent = 'Hello' + ' ' + display.textContent
         }
-        if (key.dataset.action === 'sayGoodbye'){
-            display.textContent = 'Bye' + ' ' + display.textContent
+        else if (key.dataset.action === 'sayGoodbye'){
+            display.textContent = ''
         }
-        if (key.dataset.action === 'clear'){
+        else if (key.dataset.action === 'clear'){
             location.reload();
         }
 
